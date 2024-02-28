@@ -15,7 +15,7 @@ dotenv.config();
 const app = express();
 
 const PORT = process.env.PORT || 5000;
-const MONGODB_URL = process.env.MONGODB_URL || 'mongodb://mongo:cg45AHCgF31G4C44DadHG21bGBHeBGhE@roundhouse.proxy.rlwy.net:20744';
+const MONGODB_URL = process.env.MONGODB_URL;
 
 app.use(helmet());
 
